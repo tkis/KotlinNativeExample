@@ -6,6 +6,8 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import android.widget.Toast
+import com.example.Utils
 
 class MainActivity : AppCompatActivity() {
 
@@ -15,8 +17,10 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(findViewById(R.id.toolbar))
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
+            Snackbar.make(view, "Test Kotlin Native function", Snackbar.LENGTH_LONG)
+                    .setAction("Do it") {
+                        Toast.makeText(this@MainActivity, Utils().helloWorld(), Toast.LENGTH_LONG).show()
+                    }.show()
         }
     }
 
