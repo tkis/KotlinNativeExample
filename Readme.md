@@ -7,6 +7,8 @@ In order to run the project you'll need:
 - Xcode 12.2
 - java 1.8
 
+For editing the project files, best way is either with Android Studio or IntelliJ IDEA.
+
 ### Running the iOS project
 Open the workspace from the iOS directory. Pods are commited to the project so it should run out of the box. Mind that as of now the project is configured to run only on iOS simulator.
 
