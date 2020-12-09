@@ -11,4 +11,4 @@ In order to run the project you'll need:
 From the `KotlinNativeExample` directory run `pod install`, then open the workspace and run the project. For now, it's configured only to run on the iOS simulator.
 
 ### Running the Android project
-Open the project in Android studio and run 
+Open the project in Android studio and sync gradle, then run the project on Android emulator. 
