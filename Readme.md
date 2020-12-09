@@ -1,4 +1,4 @@
-# Koltin multiplatform example
+# Koltin Native Example
 This is a simple example on how to make use of Kotlin multiplatform and import both to iOS and Android projects.
 
 ## Usage
